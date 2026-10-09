@@ -34,54 +34,24 @@ projects:
     year: "2024"
     description: "[Short description of the film and the costume approach: the
       fairy-tale characters, fabrics, how the costumes were sourced or made.]"
-    cover: /images/the-end/04.jpg
+    cover: /images/still-2025-02-20-180847131.jpg
     cover_focus: center
     images:
-      - /images/the-end/01.jpg
-      - /images/the-end/02.jpg
-      - /images/the-end/03.jpg
-      - /images/the-end/04.jpg
-      - /images/the-end/05.jpg
       - /images/the-end/06.jpg
-      - /images/the-end/07.jpg
+      - /images/the-end/05.jpg
+      - /images/the-end/01.jpg
+      - /images/still-2025-02-20-1808471291.jpg
       - /images/the-end/08.jpg
+      - /images/the-end/04.jpg
+      - /images/the-end/07.jpg
+      - /images/still-2025-02-20-1808471812.jpg
     layout: two
     video: /videos/the-end.mp4
     backstage:
-      - /images/the-end/backstage/01.jpg
-      - /images/the-end/backstage/02.jpg
       - /images/the-end/backstage/03.jpg
-      - /images/the-end/backstage/04.jpg
       - /images/the-end/backstage/05.jpg
       - /images/the-end/backstage/06.jpg
-      - /images/the-end/backstage/07.jpg
       - /images/the-end/backstage/08.jpg
-  - title: Fashion Graduate Italia
-    category: Fashion
-    subtitle: Runway collection · Milan
-    year: "2022"
-    description: The collection combines damask, velvet, lace collars, and knitted
-      bonnets. It celebrates traditional women’s craftsmanship, reinterpreting
-      lace-making and embroidery through a contemporary design language. The
-      collection was presented at Fashion Graduate Italia in Milan in 2022.
-    cover: /images/fashion-graduate-italia/16.jpg
-    cover_focus: top
-    images:
-      - /images/fashion-graduate-italia/01.jpg
-      - /images/fashion-graduate-italia/02.jpg
-      - /images/fashion-graduate-italia/03.jpg
-      - /images/fashion-graduate-italia/04.jpg
-      - /images/fashion-graduate-italia/05.jpg
-      - /images/fashion-graduate-italia/06.jpg
-      - /images/fashion-graduate-italia/07.jpg
-      - /images/fashion-graduate-italia/08.jpg
-      - /images/fashion-graduate-italia/09.jpg
-      - /images/fashion-graduate-italia/10.jpg
-      - /images/fashion-graduate-italia/11.jpg
-      - /images/fashion-graduate-italia/13.jpg
-      - /images/fashion-graduate-italia/14.jpg
-      - /images/fashion-graduate-italia/15.jpg
-    layout: three
   - title: Échec et Mat
     category: Concept
     subtitle: Costume concept · Thesis project
@@ -107,3 +77,25 @@ projects:
       - /images/echec-et-mat/08.jpg
       - /images/echec-et-mat/09.jpg
     layout: one
+  - title: Fashion Graduate Italia
+    category: Fashion show
+    year: "2022"
+    description: The collection combines damask, velvet, lace collars, and knitted
+      bonnets. It celebrates traditional women’s craftsmanship, reinterpreting
+      lace-making and embroidery through a contemporary design language. The
+      collection was presented at Fashion Graduate Italia in Milan in 2022
+    cover: /images/copertina.jpg
+    cover_focus: bottom
+    images:
+      - /images/2022-11-06-110242.jpg
+      - /images/2022-11-06-110244.jpg
+      - /images/2022-11-06-110247.jpg
+      - /images/2022-11-06-110249-1.jpg
+      - /images/2022-11-06-110300-1.jpg
+      - /images/2022-11-06-110326.jpg
+      - /images/2022-11-06-110342.jpg
+      - /images/2022-11-06-110346.jpg
+      - /images/2022-11-06-110328.jpg
+      - /images/2022-11-06-110528.jpg
+      - /images/2022-11-06-110535.jpg
+      - /images/2022-11-06-110537.jpg
