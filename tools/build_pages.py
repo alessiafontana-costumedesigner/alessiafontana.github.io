@@ -260,31 +260,30 @@ for n, p in enumerate(PROJECTS):
 
 # ---------- about ----------
 def rows(items):
-    return "\n".join(f'            <li><span class="yr">{text(y)}</span><span>{text(d)}</span></li>' for y, d in items)
+    return "\n".join(f'          <li><span class="yr">{text(y)}</span><span>{text(d)}</span></li>' for y, d in items)
 
 
 portrait = find(*ABOUT_IMAGE)
 paras = "\n".join(f"        <p>{text(t)}</p>" for t in ABOUT_PARAGRAPHS)
-body = f"""    <div class="wrap split">
-      <figure class="reveal">
-        {img_tag(portrait, "", ABOUT_IMAGE_ALT, lazy=False, sizes="(max-width: 820px) 100vw, 45vw")}
-        <figcaption>{text(ABOUT_CAPTION)}</figcaption>
-      </figure>
-      <div class="prose">
+body = f"""    <div class="wrap about">
+      <div class="prose about-text">
         <h1 class="page-title">About</h1>
         <p class="lead">{text(ABOUT_LEAD)}</p>
 {paras}
-
-        <div class="cv">
-          <h2>Selected projects</h2>
-          <ul>
+      </div>
+      <figure class="about-photo reveal">
+        {img_tag(portrait, "", ABOUT_IMAGE_ALT, lazy=False, sizes="(max-width: 820px) 100vw, 45vw")}
+        <figcaption>{text(ABOUT_CAPTION)}</figcaption>
+      </figure>
+      <div class="prose cv">
+        <h2>Selected projects</h2>
+        <ul>
 {rows(SELECTED_PROJECTS)}
-          </ul>
-          <h2>Education</h2>
-          <ul>
+        </ul>
+        <h2>Education</h2>
+        <ul>
 {rows(EDUCATION)}
-          </ul>
-        </div>
+        </ul>
       </div>
     </div>"""
 (ROOT / "about.html").write_text(page("About", "About Alessia Fontana, costume designer for film and fashion.", body, "About"))
