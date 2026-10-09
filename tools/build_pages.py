@@ -143,7 +143,7 @@ def page(title, desc, body, current, prefix="", og_image="assets/img/echec-et-ma
         <span class="brand-role">Costume Designer</span>
       </a>
       <nav class="nav" aria-label="Main">
-        {nav("Work", "index.html")}
+        {nav("Portfolio", "index.html")}
         {nav("About", "about.html")}
         {nav("Contact", "contact.html")}
       </nav>
@@ -201,7 +201,7 @@ body = f"""    <div class="wrap">
 {chr(10).join(tiles)}
       </ul>
     </div>"""
-(ROOT / "index.html").write_text(page(None, "Portfolio of Alessia Fontana, costume designer for film and fashion.", body, "Work"))
+(ROOT / "index.html").write_text(page(None, "Portfolio of Alessia Fontana, costume designer for film and fashion.", body, "Portfolio"))
 
 # ---------- project pages ----------
 SIZES = {"stack": "(max-width: 1440px) 100vw, 1340px",
@@ -254,7 +254,7 @@ for n, p in enumerate(PROJECTS):
     cover = find(p["slug"], p["cover"][0])
     (ROOT / "projects").mkdir(exist_ok=True)
     (ROOT / "projects" / f"{p['slug']}.html").write_text(
-        page(p["title"], f"{p['title']} — {p['eyebrow']}. Costumes by Alessia Fontana.", "".join(parts), "Work",
+        page(p["title"], f"{p['title']} — {p['eyebrow']}. Costumes by Alessia Fontana.", "".join(parts), "Portfolio",
              prefix="../", og_image=f"assets/img/{cover['thumb']}"))
 
 # ---------- about ----------
@@ -305,7 +305,7 @@ body = f"""    <div class="wrap split">
 # ---------- 404 ----------
 body = f"""    <div class="wrap">
       <h1 class="page-title">Page not found</h1>
-      <p><a class="link" href="{SITE_URL}/index.html">Back to the work</a></p>
+      <p><a class="link" href="{SITE_URL}/index.html">Back to the portfolio</a></p>
     </div>"""
 (ROOT / "404.html").write_text(page("Not found", "Page not found.", body, None, prefix=SITE_URL + "/"))
 print("Built index, about, contact, 404 and", len(PROJECTS), "project pages.")

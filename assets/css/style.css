@@ -52,7 +52,7 @@ a:focus-visible, button:focus-visible { outline: 1px solid var(--accent); outlin
 
 .site-header { padding: clamp(28px, 5vw, 56px) 0 clamp(32px, 6vw, 72px); }
 .site-header .wrap {
-  display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
 }
 .brand { display: block; line-height: 1; }
 .brand-name {
