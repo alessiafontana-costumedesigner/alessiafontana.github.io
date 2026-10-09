@@ -190,7 +190,6 @@ for n, p in enumerate(PROJECTS, 1):
           <a class="tile" href="projects/{p['slug']}.html">
             <div class="tile-media">{im}</div>
             <div class="tile-caption">
-              <span class="tile-index">{n:02d}</span>
               <span class="tile-title">{escape(p['title'])}</span>
               <span class="tile-kind">{escape(p['kind'])}</span>
             </div>
