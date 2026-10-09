@@ -10,16 +10,20 @@ text: >
 photo: /images/about/fashion-graduate-italia.jpg
 photo_caption: Fashion Graduate Italia, Milan, 2022.
 selected_projects:
+  - year: "2025"
+    description: "*Figli di papà*, short film. Costume design"
   - year: "2024"
     description: "*The End*, short film. Costume design"
   - year: "2024"
     description: "*Anime Giovani*, short film. Costume design"
+  - year: "2024"
+    description: "*H24*, short film. Costume design"
   - year: "2022"
     description: Fashion Graduate Italia, Milan. Runway collection
   - year: "2022"
     description: "*Échec et Mat*, costume concept"
 education:
   - year: "2023"
-    description: Fashion Design, Modartech, Pontedera (Pisa)
+    description: "*Fashion Design*, Modartech, Pontedera (Pisa)"
   - year: "2026"
-    description: Costume design, Centro Sperimentale di Cinematografia, Roma
+    description: "*Costume design*, Centro Sperimentale di Cinematografia, Roma"
