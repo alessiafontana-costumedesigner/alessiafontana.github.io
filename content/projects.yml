@@ -27,8 +27,8 @@ projects:
     category: Short film
     subtitle: Short film · Costume design
     year: "2024"
-    description: "Directed by: Annalisa Fania, DOP Andrea Anghinetti, costume
-      design: Alessia Fontana and Beatrice Kranner"
+    description: Directed by Annalisa Fania, DOP Andrea Anghinetti, costume design
+      Alessia Fontana and Beatrice Kranner
     cover: /images/a001c006241010r0yg1321-1.jpg
     cover_focus: center
     images:
@@ -49,6 +49,23 @@ projects:
       - /images/anime-giovani/backstage/04.jpg
       - /images/anime-giovani/backstage/05.jpg
       - /images/anime-giovani/backstage/06.jpg
+  - title: H24
+    category: Short Movie
+    year: "2024"
+    description: Directed by Giulio Gulizzi, DOP Bernardo Massaccesi, Costume
+      designer Alessia fontana and Flavia Setaccioli
+    cover: /images/copertina-1.jpg
+    cover_focus: bottom
+    images:
+      - /images/41.jpg
+      - /images/21.jpg
+      - /images/31.jpg
+      - /images/11.jpg
+      - /images/copertina-2.jpg
+    layout: two
+    backstage:
+      - /images/20241007231645.jpg
+      - /images/20241008004640.jpg
   - title: Fashion Graduate Italia
     category: Fashion show
     year: "2022"
