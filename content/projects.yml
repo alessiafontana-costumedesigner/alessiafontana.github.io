@@ -3,13 +3,11 @@ projects:
     category: Short film
     subtitle: Short film · Costume design
     year: "2024"
-    description: "[Short description of the film and the costume approach:
-      characters, palette, period.]"
-    cover: /images/anime-giovani/05.jpg
+    description: "Directed by: Annalisa Fania, DOP Andrea Anghinetti, costume
+      design: Alessia Fontana and Beatrice Kranner"
+    cover: /images/a001c006241010r0yg1321.jpg
     cover_focus: center
     images:
-      - /images/anime-giovani/01.jpg
-      - /images/anime-giovani/02.jpg
       - /images/anime-giovani/03.jpg
       - /images/anime-giovani/04.jpg
       - /images/anime-giovani/05.jpg
@@ -18,12 +16,11 @@ projects:
       - /images/anime-giovani/08.jpg
       - /images/anime-giovani/09.jpg
       - /images/anime-giovani/10.jpg
-      - /images/anime-giovani/11.jpg
       - /images/anime-giovani/12.jpg
+      - /images/anime-giovani/11.jpg
     layout: two
     backstage:
       - /images/anime-giovani/backstage/01.jpg
-      - /images/anime-giovani/backstage/02.jpg
       - /images/anime-giovani/backstage/03.jpg
       - /images/anime-giovani/backstage/04.jpg
       - /images/anime-giovani/backstage/05.jpg
