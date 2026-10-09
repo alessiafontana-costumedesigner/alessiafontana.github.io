@@ -16,7 +16,7 @@ projects:
       - /images/the-end/04.jpg
       - /images/the-end/07.jpg
       - /images/still-2025-02-20-1808471812.jpg
-    layout: two
+    layout: one
     video: /videos/the-end.mp4
     backstage:
       - /images/the-end/backstage/03.jpg
