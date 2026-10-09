@@ -1,21 +1,25 @@
-intro: '[One or two sentences introducing Alessia: costume designer working between film and fashion, based in …]'
-text: '[A longer paragraph about her background and training, the kind of projects she works on, and her approach to building characters through clothing: research, fabrics, hand techniques such as embroidery and knitwear.]
+intro: "[One or two sentences introducing Alessia: costume designer working
+  between film and fashion, based in …]"
+text: >
+  [A longer paragraph about her background and training, the kind of projects
+  she works on, and her approach to building characters through clothing:
+  research, fabrics, hand techniques such as embroidery and knitwear.]
 
 
   [Optional: collaborations, awards, languages, availability for new projects.]
-
-  '
 photo: /images/about/fashion-graduate-italia.jpg
 photo_caption: Fashion Graduate Italia, Milan, 2022.
 selected_projects:
-- year: '2024'
-  description: '*The End*, short film. Costume design'
-- year: '2024'
-  description: '*Anime Giovani*, short film. Costume design'
-- year: '2022'
-  description: Fashion Graduate Italia, Milan. Runway collection
-- year: '[Year]'
-  description: '*Échec et Mat*, costume concept'
+  - year: "2024"
+    description: "*The End*, short film. Costume design"
+  - year: "2024"
+    description: "*Anime Giovani*, short film. Costume design"
+  - year: "2022"
+    description: Fashion Graduate Italia, Milan. Runway collection
+  - year: "2022"
+    description: "*Échec et Mat*, costume concept"
 education:
-- year: '[Year]'
-  description: '[Degree, Institution, City]'
+  - year: "2023"
+    description: Fashion Design, Modartech, Pontedera (Pisa)
+  - year: "2026"
+    description: Costume design, Centro Sperimentale di Cinematografia, Roma
