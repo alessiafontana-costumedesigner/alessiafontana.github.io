@@ -60,9 +60,10 @@ projects:
     category: Fashion
     subtitle: Runway collection · Milan
     year: "2022"
-    description: "My collection was presented at Fashion Graduate Italia in Milan in
-      2022, showcasing the project as part of an event dedicated to emerging
-      fashion talent and the work of fashion graduates. "
+    description: The collection combines damask, velvet, lace collars, and knitted
+      bonnets. It celebrates traditional women’s craftsmanship, reinterpreting
+      lace-making and embroidery through a contemporary design language. The
+      collection was presented at Fashion Graduate Italia in Milan in 2022.
     cover: /images/fashion-graduate-italia/16.jpg
     cover_focus: top
     images:
