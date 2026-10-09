@@ -59,6 +59,7 @@ ABOUT_CAPTION = "Fashion Graduate Italia, Milan, 2022."
 #              "stack"     one large image per row
 #              "grid-2"    two per row   | "grid-3"   three per row
 #              "masonry-3" three columns, for mixed portrait/landscape photos
+#   credits  label/value rows under the description, e.g. [("Year", "2024"), ("Director", "…")]
 #   video    optional short MP4 clip (plays silently on a loop), shown above backstage
 # ---------------------------------------------------------------------------
 
@@ -67,27 +68,27 @@ PROJECTS = [
          cover=("gallery-16", "50% 22%"),
          eyebrow="Runway collection · Milan",
          intro="[Short description of the collection shown at Fashion Graduate Italia: concept, damask and velvet, lace collars, knitted bonnets.]",
-         credits=[("Role", "Designer"), ("Event", "Fashion Graduate Italia"), ("Year", "2022")],
+         credits=[("Year", "2022")],
          layouts={"gallery": "grid-3"},
          alt="Look from the Fashion Graduate Italia runway"),
     dict(slug="echec-et-mat", title="Échec et Mat", kind="Concept",
          cover=("gallery-01", "50% 40%"),
          eyebrow="Costume concept · Thesis project",
          intro="[Short description of the project: the idea behind the costumes, references (Vermeer, Dutch Golden Age), materials and techniques such as embroidery.]",
-         credits=[("Role", "Costume Designer"), ("Year", "[Year]"), ("School", "[Institution]")],
+         credits=[("Year", "[Year]")],
          layouts={"gallery": "stack"}),
     dict(slug="anime-giovani", title="Anime Giovani", kind="Short film",
          cover=("gallery-05", "50% 40%"),
          eyebrow="Short film · Costume design",
          intro="[Short description of the film and the costume approach: characters, palette, period.]",
-         credits=[("Role", "Costume Designer"), ("Director", "[Director name]"), ("Production", "[Production]"), ("Year", "2024")],
+         credits=[("Year", "2024")],
          layouts={"gallery": "grid-2", "backstage": "masonry-3"},
          alt="Still from Anime Giovani"),
     dict(slug="the-end", title="The End", kind="Short film",
          cover=("gallery-04", "50% 50%"),
          eyebrow="Short film · Costume design",
          intro="[Short description of the film and the costume approach: the fairy-tale characters, fabrics, how the costumes were sourced or made.]",
-         credits=[("Role", "Costume Designer"), ("Director", "[Director name]"), ("Production", "[Production]"), ("Year", "2024")],
+         credits=[("Year", "2024")],
          layouts={"gallery": "grid-2", "backstage": "masonry-3"},
          video="assets/video/the-end.mp4",
          alt="Still from The End"),

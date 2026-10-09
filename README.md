@@ -26,7 +26,7 @@ All the text lives at the top of **`tools/build_pages.py`**:
 
 - `EMAIL`, `INSTAGRAM_HANDLE`, `INSTAGRAM_URL`, `CITY`: contact details (also used in the footer)
 - `ABOUT_LEAD`, `ABOUT_PARAGRAPHS`, `SELECTED_PROJECTS`, `EDUCATION`: the About page
-- `PROJECTS`: every project's title, description (`intro`), credits (director, year…), cover image and layout
+- `PROJECTS`: every project's title, description (`intro`), year (`credits`), cover image and layout
 
 Anything written in `[square brackets]` is a **placeholder**. It appears on the site with a light blue dashed highlight so it's easy to spot. Replace it with real text and remove the brackets.
 Wrap a title in `*asterisks*` to set it in italics.
