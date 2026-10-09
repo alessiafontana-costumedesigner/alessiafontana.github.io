@@ -1,4 +1,18 @@
 projects:
+  - title: Costume Studies
+    category: Costume Studies
+    description: A collection of costume sketches exploring different historical
+      periods, focusing on the evolution of clothing, silhouettes, fabrics, and
+      decorative details. These studies investigate the relationship between
+      fashion, history, and culture, offering a visual exploration of costume
+      across different eras.
+    cover: /images/0.jpg
+    cover_focus: bottom
+    images:
+      - /images/1.jpg
+      - /images/6.jpg
+      - /images/2-1.jpg
+    layout: one
   - title: Figli di papà
     category: Short film
     subtitle: Short film · Costume design
@@ -19,6 +33,7 @@ projects:
       - /images/4-1.jpg
       - /images/5-1.jpg
     layout: two
+    video: /videos/the-end.mp4
   - title: The End
     category: Short film
     subtitle: Short film · Costume design
@@ -138,18 +153,4 @@ projects:
       - /images/echec-et-mat/07.jpg
       - /images/echec-et-mat/08.jpg
       - /images/echec-et-mat/09.jpg
-    layout: one
-  - title: Costume Studies
-    category: Costume Studies
-    description: A collection of costume sketches exploring different historical
-      periods, focusing on the evolution of clothing, silhouettes, fabrics, and
-      decorative details. These studies investigate the relationship between
-      fashion, history, and culture, offering a visual exploration of costume
-      across different eras.
-    cover: /images/0.jpg
-    cover_focus: bottom
-    images:
-      - /images/1.jpg
-      - /images/6.jpg
-      - /images/2-1.jpg
     layout: one
