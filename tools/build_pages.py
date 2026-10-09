@@ -231,7 +231,7 @@ for n, p in enumerate(PROJECTS):
         if sec == "backstage":
             if p.get("video"):
                 parts.append(f"""
-      <h2 class="section-label">Film</h2>
+      <div class="section-label" aria-hidden="true"></div>
       <video class="film reveal" autoplay muted loop playsinline preload="metadata" aria-label="Clip from {escape(p['title'])}">
         <source src="../{p['video']}" type="video/mp4">
       </video>""")
