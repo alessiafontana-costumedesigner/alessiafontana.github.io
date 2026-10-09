@@ -57,7 +57,7 @@ projects:
       bonnets. It celebrates traditional women’s craftsmanship, reinterpreting
       lace-making and embroidery through a contemporary design language. The
       collection was presented at Fashion Graduate Italia in Milan in 2022
-    cover: /images/copertina.jpg
+    cover: /images/2022-11-06-110342-1.jpg
     cover_focus: bottom
     images:
       - /images/2022-11-06-110242.jpg
@@ -72,6 +72,7 @@ projects:
       - /images/2022-11-06-110528.jpg
       - /images/2022-11-06-110535.jpg
       - /images/2022-11-06-110537.jpg
+    layout: three
   - title: Échec et Mat
     category: Concept
     subtitle: Costume concept · Thesis project
