@@ -26,7 +26,7 @@ projects:
     description: Directed by Cabiria Lizzi, DOP Fabio Filomena, costume design
       Alessia Fontana and Beatrice Kranner.
     cover: /images/still-2025-02-20-180847171.jpg
-    cover_focus: center
+    cover_focus: bottom
     images:
       - /images/the-end/06.jpg
       - /images/the-end/05.jpg
@@ -36,7 +36,7 @@ projects:
       - /images/the-end/04.jpg
       - /images/the-end/07.jpg
       - /images/still-2025-02-20-1808471812-1.jpg
-    layout: one
+    layout: two
     video: /videos/the-end.mp4
     backstage:
       - /images/the-end/backstage/03.jpg
