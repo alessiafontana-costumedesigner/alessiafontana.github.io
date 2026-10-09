@@ -22,7 +22,7 @@ SITE_URL = "https://alessiafontana-costumedesigner.github.io/alessiafontana.gith
 # ---------------------------------------------------------------------------
 # CONTACT DETAILS (used in the footer of every page and on the Contact page)
 # ---------------------------------------------------------------------------
-EMAIL = "[hello@example.com]"
+EMAIL = "alessiafontana2000@gmail.com"
 INSTAGRAM_HANDLE = "[@username]"
 INSTAGRAM_URL = "https://www.instagram.com/"
 CITY = "[City, Italy]"
