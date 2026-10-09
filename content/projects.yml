@@ -139,3 +139,17 @@ projects:
       - /images/echec-et-mat/08.jpg
       - /images/echec-et-mat/09.jpg
     layout: one
+  - title: Costume Studies
+    category: Costume Studies
+    description: A collection of costume sketches exploring different historical
+      periods, focusing on the evolution of clothing, silhouettes, fabrics, and
+      decorative details. These studies investigate the relationship between
+      fashion, history, and culture, offering a visual exploration of costume
+      across different eras.
+    cover: /images/0.jpg
+    cover_focus: bottom
+    images:
+      - /images/1.jpg
+      - /images/6.jpg
+      - /images/2-1.jpg
+    layout: one
