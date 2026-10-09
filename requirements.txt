@@ -1,0 +1,4 @@
+# Used by tools/build.py
+pyyaml>=6,<7
+pillow>=12,<13
+pillow-heif>=1,<2

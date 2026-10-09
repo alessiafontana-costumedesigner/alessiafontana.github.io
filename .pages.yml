@@ -1,0 +1,181 @@
+# Pages CMS configuration: defines the editing forms at https://app.pagescms.org
+# Docs: https://pagescms.org/docs/configuration/
+
+media:
+  - name: images
+    label: Photos
+    input: images
+    output: /images
+    rename: safe
+    extensions: [jpg, jpeg, png, webp, heic]
+  - name: videos
+    label: Videos
+    input: videos
+    output: /videos
+    rename: safe
+    extensions: [mp4]
+
+content:
+  - name: projects
+    label: Projects
+    type: file
+    path: content/projects.yml
+    fields:
+      - name: projects
+        label: Projects
+        description: Drag projects to change their order on the home page. The first one appears at the top left.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: category
+            label: Category
+            description: Short label shown next to the title on the home page, e.g. Short film, Fashion, Theatre.
+            type: string
+          - name: subtitle
+            label: Subtitle
+            description: Small line above the title on the project page, e.g. Short film · Costume design.
+            type: string
+          - name: year
+            label: Year
+            type: string
+          - name: description
+            label: Description
+            description: A few sentences about the project. Put *asterisks* around a title to make it italic.
+            type: text
+          - name: cover
+            label: Cover photo
+            description: The photo shown on the home page. If empty, the first gallery photo is used.
+            type: image
+            options:
+              media: images
+          - name: cover_focus
+            label: Cover framing
+            description: The home page crops covers to a landscape shape. Choose which part of the photo to keep.
+            type: select
+            options:
+              values:
+                - name: center
+                  label: Keep the middle
+                - name: top
+                  label: Keep the top (good for portraits and faces)
+                - name: bottom
+                  label: Keep the bottom
+          - name: images
+            label: Gallery photos
+            description: Photos shown on the project page, in this order. Large photos are resized automatically.
+            type: image
+            options:
+              media: images
+              multiple: true
+          - name: layout
+            label: Gallery layout
+            type: select
+            options:
+              values:
+                - name: one
+                  label: One large photo per row
+                - name: two
+                  label: Two photos per row
+                - name: three
+                  label: Three photos per row (best for portrait photos)
+          - name: video
+            label: Video clip (optional)
+            description: A short MP4 clip. It plays silently on a loop after the gallery.
+            type: file
+            options:
+              media: videos
+          - name: backstage
+            label: Backstage photos (optional)
+            description: Shown in a "Backstage" section at the bottom of the project page.
+            type: image
+            options:
+              media: images
+              multiple: true
+
+  - name: about
+    label: About page
+    type: file
+    path: content/about.yml
+    fields:
+      - name: intro
+        label: Introduction
+        description: One or two sentences, shown in larger text under the title.
+        type: text
+      - name: text
+        label: Biography
+        description: Leave an empty line between paragraphs. Put *asterisks* around a title to make it italic.
+        type: text
+      - name: photo
+        label: Photo
+        type: image
+        options:
+          media: images
+      - name: photo_caption
+        label: Photo caption
+        type: string
+      - name: selected_projects
+        label: Selected projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} · {description}"
+        fields:
+          - name: year
+            label: Year
+            type: string
+          - name: description
+            label: Project
+            description: e.g. *The End*, short film. Costume design
+            type: string
+      - name: education
+        label: Education
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} · {description}"
+        fields:
+          - name: year
+            label: Year
+            type: string
+          - name: description
+            label: Course or degree
+            description: e.g. BA Fashion Design, Institution, City
+            type: string
+
+  - name: site
+    label: Contact & site info
+    type: file
+    path: content/site.yml
+    fields:
+      - name: name
+        label: Name
+        description: Shown at the top of every page.
+        type: string
+        required: true
+      - name: role
+        label: Role
+        description: Shown under the name, e.g. Costume Designer.
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: instagram
+        label: Instagram username
+        description: e.g. @fontana_alessia_ (leave empty to hide it).
+        type: string
+      - name: city
+        label: Based in
+        description: e.g. Rome, Italy (leave empty to hide it).
+        type: string
+      - name: contact_intro
+        label: Contact page text
+        type: text

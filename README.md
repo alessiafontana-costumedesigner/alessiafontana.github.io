@@ -1,123 +1,159 @@
 # alessiafontana.github.io
 
 Portfolio website of Alessia Fontana, costume designer.
-It's a plain static site (HTML, CSS and a little JavaScript), with no frameworks and nothing to install beyond Python 3, which comes with macOS.
 
-```
-index.html, about.html, contact.html, 404.html     generated pages (don't edit by hand)
-projects/*.html                                    generated project pages
-assets/css/style.css                               all styling (colors, fonts, spacing)
-assets/js/main.js                                  image viewer + fade-in on scroll
-assets/img/                                        web-sized photos (generated)
-assets/video/                                      web-sized video
-tools/build_pages.py                               ALL the site's text + page templates
-tools/optimize_media.py                            makes web-sized photos from media/
-tools/serve.py                                     local preview server
-media/                                             original full-size photos (not uploaded)
-```
+**Live site:** https://alessiafontana-costumedesigner.github.io/alessiafontana.github.io/
+
+- **Part 1** is for Alessia: how to change texts and photos from the browser, with no code.
+- **Part 2** is the technical side: how the site is built, local preview, one-time setup.
 
 ---
 
-## 1. Edit the website
+## Part 1: Editing the website (no code needed)
 
-### Change text (bio, credits, email, Instagram…)
+All changes are made at **[app.pagescms.org](https://app.pagescms.org)**, a free editor that works in the browser.
 
-All the text lives at the top of **`tools/build_pages.py`**:
+### Open the editor
 
-- `EMAIL`, `INSTAGRAM_HANDLE`, `INSTAGRAM_URL`, `CITY`: contact details (also used in the footer)
-- `ABOUT_LEAD`, `ABOUT_PARAGRAPHS`, `SELECTED_PROJECTS`, `EDUCATION`: the About page
-- `PROJECTS`: every project's title, description (`intro`), year (`credits`), cover image and layout
+1. Go to **https://app.pagescms.org**.
+2. Click **Sign in with GitHub** and log in with the `alessiafontana-costumedesigner` account.
+3. Click the **alessiafontana.github.io** repository.
 
-Anything written in `[square brackets]` is a **placeholder**. It appears on the site with a light blue dashed highlight so it's easy to spot. Replace it with real text and remove the brackets.
-Wrap a title in `*asterisks*` to set it in italics.
+In the left menu there are three sections:
 
-After editing, rebuild the pages by running this from the project folder:
+| Section | What you can change |
+| --- | --- |
+| **Projects** | Every project: title, year, description, cover, photos, video, backstage photos, order on the home page |
+| **About page** | Introduction, biography, photo, selected projects, education |
+| **Contact & site info** | Email, Instagram, city, contact text, the name and role at the top of each page |
 
-```sh
-python3 tools/build_pages.py
-```
+### Save and publish
 
-> Don't edit the `.html` files directly. They are overwritten every time you run the build.
+Click **Save** at the top right after making changes. The site updates automatically after
+**about 2 minutes**. Refresh the website to see them (on a computer: `Cmd + Shift + R`;
+on a phone: close and reopen the page).
 
-### Add or change photos
+### Change a text
 
-1. Put the original photos in the right folder inside `media/`.
-   The folders each project uses are listed in `PROJECTS` at the top of `tools/optimize_media.py`.
-2. Make the web-sized copies (about 2000px and 900px versions, a few hundred KB each):
-   ```sh
-   python3 tools/optimize_media.py
-   ```
-3. Rebuild the pages:
-   ```sh
-   python3 tools/build_pages.py
-   ```
+Open the section, click the field, type, then **Save**.
 
-Photos appear in alphabetical order by original file name.
+- To write a title in *italics*, put asterisks around it: `*The End*, short film`.
+- Text written inside `[square brackets]` shows up on the site with a light blue highlight. It marks
+  something still to fill in. Replace it with the real text and remove the brackets.
+- In the biography, leave an **empty line** between paragraphs.
+- Leaving a field empty hides it on the site (for example the Instagram row or the year).
+
+### Add photos to a project
+
+1. **Projects** → click the project to open it.
+2. Under **Gallery photos** (or **Backstage photos**), click **Add** and upload the photos from your
+   computer or phone. Photos straight from the phone are fine: they are resized automatically.
+3. Drag the photos to change their order.
+4. **Save**.
+
+To **remove** a photo from a project, delete it from the list and **Save**. This hides it from the
+site; the file itself stays in the **Media** library in case you want it again.
 
 ### Add a new project
 
-1. Create a folder for it in `media/` with its photos (plus a sub-folder for backstage photos if you have them).
-2. In `tools/optimize_media.py`, add a line to `PROJECTS`, for example `"new-project": {"gallery": "MY FOLDER", "backstage": "MY FOLDER/Backstage"},`
-3. In `tools/build_pages.py`, add a matching entry to `PROJECTS`.
-   Copy an existing one and change `slug` (it must match the name used in step 2), `title`, `kind`, `cover`, `intro`, `credits` and `layouts`.
-4. Run both commands from the section above.
+1. **Projects** → **Add an entry** at the bottom of the list.
+2. Fill in **Title**, **Category** (e.g. *Short film*), **Subtitle**, **Year**, **Description**.
+3. Upload the **Gallery photos** and choose a **Cover photo** (the image shown on the home page).
+4. Choose a **Gallery layout**:
+   - *One large photo per row*: for wide images or pages of a book
+   - *Two photos per row*: for film stills
+   - *Three photos per row*: for portrait photos, e.g. runway looks
+5. **Save**.
+
+### Change the order of projects on the home page
+
+**Projects** → drag the projects up or down. The first one appears at the top left. **Save**.
+
+### Change the cover crop
+
+On the home page, covers are cropped to a landscape shape. If a face or detail gets cut off,
+change **Cover framing** in that project (*Keep the top* works well for portrait photos).
+
+### Add a video
+
+Videos must be **MP4** files, short (a few seconds to a minute) and ideally under 50 MB.
+Upload it in the project's **Video clip** field. It plays silently on a loop, after the photos.
+
+### If something goes wrong
+
+- **The change doesn't appear:** wait 2–3 minutes and refresh the page.
+- **Undo a mistake:** every save is kept in the history, so an older version can always be restored.
+  Ask Niccolò.
+- **The site still shows the old version after 10 minutes:** a photo may be in an unsupported format.
+  Ask Niccolò to check the **Actions** tab on GitHub.
+
+---
+
+## Part 2: Technical notes
+
+### How it works
+
+```
+content/projects.yml, about.yml, site.yml   all texts and photo choices (edited by Pages CMS)
+images/                                      photos, organized by project
+videos/                                      video clips (MP4)
+assets/css/style.css, assets/js/main.js      design and behavior (image viewer, fade-in)
+tools/build.py                               builds the site into _site/ (resizes photos, writes HTML)
+tools/serve.py                               local preview server
+.pages.yml                                   defines the Pages CMS editing forms
+.github/workflows/deploy.yml                 builds and publishes on every push to main
+media/                                       original full-size photos (local only, not uploaded)
+```
+
+Every push to `main` (including each **Save** in Pages CMS) triggers the GitHub Action, which runs
+`tools/build.py` and publishes `_site/` to GitHub Pages. The generated HTML is not committed.
+
+The build resizes photos to at most 2000px plus a 900px thumbnail, converts PNG, HEIC and WebP
+to JPEG, and fixes phone-camera rotation. A missing or unreadable photo is skipped with a warning
+in the Action log, so one bad file doesn't take the site down.
+
+### One-time setup
+
+1. **Publish with GitHub Actions.** Repository **Settings → Pages → Build and deployment → Source**:
+   choose **GitHub Actions**. This needs an admin of the repository (the
+   `alessiafontana-costumedesigner` account).
+2. **Install Pages CMS.** Sign in at https://app.pagescms.org with the
+   `alessiafontana-costumedesigner` account. When asked, install the **Pages CMS GitHub App** and
+   give it access to the `alessiafontana.github.io` repository.
+
+### Preview locally
+
+You need Python 3 (included with macOS). The first time only, from the project folder:
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+```
+
+Then, every time:
+
+```sh
+.venv/bin/python tools/build.py     # build the site into _site/
+python3 tools/serve.py              # serve it at http://localhost:8000
+```
+
+Run `build.py` again after each change, then refresh the browser. Press `Ctrl + C` to stop the server.
+If Alessia has made changes in Pages CMS, run `git pull` first.
+
+> Use `tools/serve.py` rather than `python3 -m http.server`. Python's built-in server can't stream video,
+> so the clip on *The End* never loads in Chrome, and with it browsers cache pages, which hides your changes.
+> To use a different port: `python3 tools/serve.py 8080`.
 
 ### Change the look
 
 Colors and fonts are defined at the top of `assets/css/style.css` (`--paper`, `--ink`, `--accent`, …).
-No rebuild is needed after CSS changes; just refresh the browser.
-
----
-
-## 2. See the website on your computer (localhost)
-
-From the project folder, start the preview server:
-
-```sh
-python3 tools/serve.py
-```
-
-Then open **http://localhost:8000** in your browser. 
-Refresh the page after each change (and after running `build_pages.py`). Press `Ctrl + C` in the terminal to stop the server.
-
-> Use `tools/serve.py` rather than `python3 -m http.server`. Python's built-in server can't stream video
-> (the clip on *The End* never loads in Chrome), and with it browsers cache pages, which hides your changes.
-> To use a different port: `python3 tools/serve.py 8080`.
-
----
-
-## 3. Publish online (GitHub Pages)
-
-The site is hosted for free by GitHub Pages at
-**https://alessiafontana-costumedesigner.github.io/alessiafontana.github.io/**.
-
-### First time only
-
-1. The repository is `alessiafontana.github.io` on the GitHub account `alessiafontana-costumedesigner`.
-   For the shorter address **https://alessiafontana-costumedesigner.github.io**, rename the repository
-   to `alessiafontana-costumedesigner.github.io` (Settings → General), then update `SITE_URL` in
-   `tools/build_pages.py` and rebuild.
-2. Push the code (see below).
-3. On GitHub, open the repository and go to **Settings → Pages**.
-   Under *Build and deployment*, choose **Source: Deploy from a branch**, **Branch: `main`**, folder **`/ (root)`**, then **Save**.
-4. After a minute or two the site is live. The address is shown at the top of the Pages settings.
-
-### Every time you make changes
-
-```sh
-python3 tools/build_pages.py        # if you changed text or photos
-git add -A
-git commit -m "Describe what you changed"
-git push
-```
-
-GitHub republishes the site automatically within a minute or two. 
-If you don't see the change, do a hard refresh (`Cmd + Shift + R`).
+Page structure is in the templates inside `tools/build.py`.
 
 ### Notes
 
-- `media/` (the full-size originals, about 400MB) is listed in `.gitignore` and is **never uploaded**:
-  GitHub rejects files over 100MB, and the originals would make the site very slow. 
+- If the repository is renamed, the address changes too. The build picks up the new address
+  automatically from the Pages settings.
+- `media/` (the full-size originals, about 400MB) is listed in `.gitignore` and is **never uploaded**.
   Keep a backup of that folder somewhere safe (it only exists on this computer).
-- `.nojekyll` tells GitHub to serve the files as they are, without processing them.
-- To use a custom domain (e.g. `alessiafontana.com`), add it under **Settings → Pages → Custom domain** and follow GitHub's DNS instructions.
+- To use a custom domain (e.g. `alessiafontana.com`), add it under **Settings → Pages → Custom domain**
+  and follow GitHub's DNS instructions.

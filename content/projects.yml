@@ -1,0 +1,104 @@
+projects:
+- title: Fashion Graduate Italia
+  category: Fashion
+  subtitle: Runway collection · Milan
+  year: '2022'
+  description: '[Short description of the collection shown at Fashion Graduate Italia: concept, damask and velvet, lace collars, knitted bonnets.]'
+  cover: /images/fashion-graduate-italia/16.jpg
+  cover_focus: top
+  images:
+  - /images/fashion-graduate-italia/01.jpg
+  - /images/fashion-graduate-italia/02.jpg
+  - /images/fashion-graduate-italia/03.jpg
+  - /images/fashion-graduate-italia/04.jpg
+  - /images/fashion-graduate-italia/05.jpg
+  - /images/fashion-graduate-italia/06.jpg
+  - /images/fashion-graduate-italia/07.jpg
+  - /images/fashion-graduate-italia/08.jpg
+  - /images/fashion-graduate-italia/09.jpg
+  - /images/fashion-graduate-italia/10.jpg
+  - /images/fashion-graduate-italia/11.jpg
+  - /images/fashion-graduate-italia/12.jpg
+  - /images/fashion-graduate-italia/13.jpg
+  - /images/fashion-graduate-italia/14.jpg
+  - /images/fashion-graduate-italia/15.jpg
+  - /images/fashion-graduate-italia/16.jpg
+  layout: three
+  video: ''
+  backstage: []
+- title: Échec et Mat
+  category: Concept
+  subtitle: Costume concept · Thesis project
+  year: '[Year]'
+  description: '[Short description of the project: the idea behind the costumes, references (Vermeer, Dutch Golden Age), materials and techniques such as embroidery.]'
+  cover: /images/echec-et-mat/01.jpg
+  cover_focus: center
+  images:
+  - /images/echec-et-mat/01.jpg
+  - /images/echec-et-mat/02.jpg
+  - /images/echec-et-mat/03.jpg
+  - /images/echec-et-mat/04.jpg
+  - /images/echec-et-mat/05.jpg
+  - /images/echec-et-mat/06.jpg
+  - /images/echec-et-mat/07.jpg
+  - /images/echec-et-mat/08.jpg
+  - /images/echec-et-mat/09.jpg
+  layout: one
+  video: ''
+  backstage: []
+- title: Anime Giovani
+  category: Short film
+  subtitle: Short film · Costume design
+  year: '2024'
+  description: '[Short description of the film and the costume approach: characters, palette, period.]'
+  cover: /images/anime-giovani/05.jpg
+  cover_focus: center
+  images:
+  - /images/anime-giovani/01.jpg
+  - /images/anime-giovani/02.jpg
+  - /images/anime-giovani/03.jpg
+  - /images/anime-giovani/04.jpg
+  - /images/anime-giovani/05.jpg
+  - /images/anime-giovani/06.jpg
+  - /images/anime-giovani/07.jpg
+  - /images/anime-giovani/08.jpg
+  - /images/anime-giovani/09.jpg
+  - /images/anime-giovani/10.jpg
+  - /images/anime-giovani/11.jpg
+  - /images/anime-giovani/12.jpg
+  layout: two
+  video: ''
+  backstage:
+  - /images/anime-giovani/backstage/01.jpg
+  - /images/anime-giovani/backstage/02.jpg
+  - /images/anime-giovani/backstage/03.jpg
+  - /images/anime-giovani/backstage/04.jpg
+  - /images/anime-giovani/backstage/05.jpg
+  - /images/anime-giovani/backstage/06.jpg
+- title: The End
+  category: Short film
+  subtitle: Short film · Costume design
+  year: '2024'
+  description: '[Short description of the film and the costume approach: the fairy-tale characters, fabrics, how the costumes were sourced or made.]'
+  cover: /images/the-end/04.jpg
+  cover_focus: center
+  images:
+  - /images/the-end/01.jpg
+  - /images/the-end/02.jpg
+  - /images/the-end/03.jpg
+  - /images/the-end/04.jpg
+  - /images/the-end/05.jpg
+  - /images/the-end/06.jpg
+  - /images/the-end/07.jpg
+  - /images/the-end/08.jpg
+  layout: two
+  video: /videos/the-end.mp4
+  backstage:
+  - /images/the-end/backstage/01.jpg
+  - /images/the-end/backstage/02.jpg
+  - /images/the-end/backstage/03.jpg
+  - /images/the-end/backstage/04.jpg
+  - /images/the-end/backstage/05.jpg
+  - /images/the-end/backstage/06.jpg
+  - /images/the-end/backstage/07.jpg
+  - /images/the-end/backstage/08.jpg
