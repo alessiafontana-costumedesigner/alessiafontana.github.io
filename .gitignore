@@ -1,9 +1,7 @@
 .vscode
 .history
 .DS_Store
-# Original, full-resolution media (too large for GitHub). Web-sized copies live in images/.
 media/
-# Build output and local Python environment.
 _site/
 .venv/
 __pycache__/

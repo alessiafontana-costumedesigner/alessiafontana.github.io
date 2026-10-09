@@ -89,7 +89,7 @@ Upload it in the project's **Video clip** field. It plays silently on a loop, af
 
 ---
 
-## Part 2: Technical notes
+## Part 2: Technical notes (for Niccolò)
 
 ### How it works
 

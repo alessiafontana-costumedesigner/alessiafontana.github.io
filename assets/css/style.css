@@ -69,12 +69,28 @@ a:focus-visible, button:focus-visible { outline: 1px solid var(--accent); outlin
 
 .nav { display: flex; gap: clamp(18px, 3vw, 40px); }
 .nav a {
+  position: relative;
   font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
-  padding-bottom: 4px; border-bottom: 1px solid transparent;
-  transition: border-color .25s, color .25s;
+  padding-bottom: 5px;
+  transition: color .25s;
 }
 .nav a:hover { color: var(--accent); }
-.nav a[aria-current="page"] { border-color: currentColor; }
+/* Underline of the current page. Between pages it slides to the new link
+   (cross-document view transition; browsers without it just switch). */
+.nav-bar {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 1px;
+  background: currentColor;
+  view-transition-name: nav-bar;
+}
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+/* Only the bar moves; the rest of the page swaps instantly as before. */
+::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+::view-transition-group(nav-bar) {
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(.65, 0, .35, 1);
+}
 
 /* ---------- Work grid ---------- */
 

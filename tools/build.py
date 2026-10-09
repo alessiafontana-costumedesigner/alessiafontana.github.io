@@ -189,8 +189,9 @@ def img_tag(info, prefix, alt, lazy=True, sizes="(max-width: 720px) 100vw, 50vw"
 
 def page(site, title, desc, body, current, prefix="", og_image=None):
     def nav(name, href):
-        cur = ' aria-current="page"' if current == name else ""
-        return f'<a href="{prefix}{href}"{cur}>{name}</a>'
+        if current == name:
+            return f'<a href="{prefix}{href}" aria-current="page">{name}<span class="nav-bar"></span></a>'
+        return f'<a href="{prefix}{href}">{name}</a>'
     name, role = plain(site.get("name")) or "Alessia Fontana", plain(site.get("role"))
     full_title = f"{name} — {role}" if not title else f"{title} — {name}"
     og = f'\n  <meta property="og:image" content="{SITE_URL}/{og_image}">' if og_image else ""
