@@ -60,8 +60,9 @@ projects:
     category: Fashion
     subtitle: Runway collection · Milan
     year: "2022"
-    description: "[Short description of the collection shown at Fashion Graduate
-      Italia: concept, damask and velvet, lace collars, knitted bonnets.]"
+    description: "My collection was presented at Fashion Graduate Italia in Milan in
+      2022, showcasing the project as part of an event dedicated to emerging
+      fashion talent and the work of fashion graduates. "
     cover: /images/fashion-graduate-italia/16.jpg
     cover_focus: top
     images:
@@ -76,11 +77,9 @@ projects:
       - /images/fashion-graduate-italia/09.jpg
       - /images/fashion-graduate-italia/10.jpg
       - /images/fashion-graduate-italia/11.jpg
-      - /images/fashion-graduate-italia/12.jpg
       - /images/fashion-graduate-italia/13.jpg
       - /images/fashion-graduate-italia/14.jpg
       - /images/fashion-graduate-italia/15.jpg
-      - /images/fashion-graduate-italia/16.jpg
     layout: three
   - title: Échec et Mat
     category: Concept
