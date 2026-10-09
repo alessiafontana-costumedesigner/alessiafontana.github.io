@@ -5,7 +5,7 @@ Portfolio website of Alessia Fontana, costume designer.
 **Live site:** https://alessiafontana-costumedesigner.github.io/alessiafontana.github.io/
 
 - **Part 1** is for Alessia: how to change texts and photos from the browser, with no code.
-- **Part 2** is the technical side: how the site is built, local preview, one-time setup.
+- **Part 2** is the technical side (for Niccolò): how the site is built, local preview, one-time setup.
 
 ---
 
@@ -29,30 +29,30 @@ In the left menu there are three sections:
 
 ### Save and publish
 
-Click **Save** at the top right after making changes. The site updates automatically after
-**about 2 minutes**. Refresh the website to see them (on a computer: `Cmd + Shift + R`;
-on a phone: close and reopen the page).
+Click **Save** at the top right after making changes. 
+The site updates automatically after **about 2 minutes**. 
+Refresh the website to see them.
 
 ### Change a text
 
 Open the section, click the field, type, then **Save**.
 
 - To write a title in *italics*, put asterisks around it: `*The End*, short film`.
-- Text written inside `[square brackets]` shows up on the site with a light blue highlight. It marks
-  something still to fill in. Replace it with the real text and remove the brackets.
+- Text written inside `[square brackets]` shows up on the site with a light blue highlight. 
+It marks something still to fill in. 
+Replace it with the real text and remove the brackets.
 - In the biography, leave an **empty line** between paragraphs.
 - Leaving a field empty hides it on the site (for example the Instagram row or the year).
 
 ### Add photos to a project
 
 1. **Projects** → click the project to open it.
-2. Under **Gallery photos** (or **Backstage photos**), click **Add** and upload the photos from your
-   computer or phone. Photos straight from the phone are fine: they are resized automatically.
+2. Under **Gallery photos** (or **Backstage photos**), click **Add** and upload the photos from your computer or phone. 
+Photos straight from the phone are fine: they are resized automatically.
 3. Drag the photos to change their order.
 4. **Save**.
 
-To **remove** a photo from a project, delete it from the list and **Save**. This hides it from the
-site; the file itself stays in the **Media** library in case you want it again.
+To **remove** a photo from a project, delete it from the list and **Save**. 
 
 ### Add a new project
 
@@ -77,7 +77,7 @@ change **Cover framing** in that project (*Keep the top* works well for portrait
 ### Add a video
 
 Videos must be **MP4** files, short (a few seconds to a minute) and ideally under 50 MB.
-Upload it in the project's **Video clip** field. It plays silently on a loop, after the photos.
+Upload it in the project's **Video clip** field.
 
 ### If something goes wrong
 
