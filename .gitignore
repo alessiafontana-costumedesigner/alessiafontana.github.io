@@ -1,0 +1,5 @@
+.vscode
+.history
+.DS_Store
+# Original, full-resolution media (too large for GitHub). Web copies live in assets/.
+media/
