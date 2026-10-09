@@ -28,14 +28,16 @@ projects:
     cover: /images/still-2025-02-20-180847171.jpg
     cover_focus: bottom
     images:
-      - /images/the-end/06.jpg
-      - /images/the-end/05.jpg
-      - /images/the-end/01.jpg
-      - /images/still-2025-02-20-1808471291-2.jpg
-      - /images/still-2025-02-20-183936124-1.jpg
-      - /images/the-end/04.jpg
-      - /images/the-end/07.jpg
-      - /images/still-2025-02-20-1808471812-1.jpg
+      - /images/still-2025-02-20-180847141.jpg
+      - /images/still-2025-02-20-180847171-1.jpg
+      - /images/still-2025-02-20-180847151.jpg
+      - /images/still-2025-02-20-1808471101.jpg
+      - /images/still-2025-02-20-1808471291-3.jpg
+      - /images/still-2025-02-20-183936124-2.jpg
+      - /images/still-2025-02-20-1808471301.jpg
+      - /images/still-2025-02-20-1808471282.jpg
+      - /images/still-2025-02-20-1808471741.jpg
+      - /images/still-2025-02-20-1808471812-2.jpg
     layout: two
     video: /videos/the-end.mp4
     backstage:
