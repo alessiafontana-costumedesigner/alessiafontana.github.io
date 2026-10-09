@@ -6,6 +6,18 @@ projects:
     description: Directed by Giulio Gulizzi, DOP Fabio Filomena, Costume designer
       Alessia Fontana and Vittoria Salomone
     cover: /images/3.jpg
+    cover_focus: bottom
+    images:
+      - /images/13.jpg
+      - /images/10.jpg
+      - /images/16.jpg
+      - /images/15.jpg
+      - /images/12.jpg
+      - /images/11-1.jpg
+      - /images/9.jpg
+      - /images/5.jpg
+      - /images/4.jpg
+      - /images/3-1.jpg
   - title: The End
     category: Short film
     subtitle: Short film · Costume design
