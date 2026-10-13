@@ -40,6 +40,7 @@ projects:
       Produced by Apulia film commission;
       DOP Andrea Anghinetti;
       Costume Designer Alessia Fontana 
+    cover: /images/klea21171-1.jpg
     cover_focus: bottom
   - title: Figli di papà
     category: Short film
@@ -182,13 +183,10 @@ projects:
       bring renewed attention to a legacy of gestures and skills passed down
       through generations, transforming them into a contemporary design
       language.
-    cover: /images/echec-et-mat/01.jpg
     cover_focus: center
     images:
       - /images/echec-et-mat/02.jpg
       - /images/echec-et-mat/03.jpg
-      - /images/echec-et-mat/04.jpg
-      - /images/echec-et-mat/05.jpg
       - /images/echec-et-mat/06.jpg
       - /images/echec-et-mat/07.jpg
       - /images/echec-et-mat/08.jpg
