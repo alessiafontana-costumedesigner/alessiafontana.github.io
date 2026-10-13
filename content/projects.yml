@@ -13,12 +13,31 @@ projects:
       - /images/6.jpg
       - /images/2-1.jpg
     layout: one
+  - title: MEZZADEA
+    category: Short film
+    subtitle: Short film · Costume design
+    year: "2026"
+    description: |-
+      Directed by Cabiria Lizzi;
+      Produced by Limbo film and Cinecittà;
+      DOP Bernardo Massaccesi;
+      Costume Designer Alessia Fontana
+    cover_focus: bottom
+    layout: two
+    backstage:
+      - /images/img-20260414-wa0040.jpg
+      - /images/20260331164550.jpg
+      - /images/20260402200440.jpg
+      - /images/img-20260414-wa0042.jpg
   - title: Figli di papà
     category: Short film
     subtitle: Short film · Costume design
     year: "2025"
-    description: Directed by Giulio Gulizzi, DOP Fabio Filomena, Costume designer
-      Alessia Fontana and Vittoria Salomone
+    description: |-
+      Directed by Giulio Gulizzi, 
+      Produced by Centro Sperimentale di Cinematografia;
+      DOP Fabio Filomena; 
+      Costume Designer Alessia Fontana and Vittoria Salomone
     cover: /images/2.jpg
     cover_focus: bottom
     images:
@@ -38,8 +57,11 @@ projects:
     category: Short film
     subtitle: Short film · Costume design
     year: "2024"
-    description: Directed by Cabiria Lizzi, DOP Fabio Filomena, costume design
-      Alessia Fontana and Beatrice Kranner.
+    description: |-
+      Directed by Cabiria Lizzi; 
+      Produced by Centro Sperimentale di Cinematografia;
+      DOP Fabio Filomena; 
+      Costume Designer Alessia Fontana and Beatrice Kranner.
     cover: /images/still-2025-02-20-180847171.jpg
     cover_focus: bottom
     images:
@@ -64,8 +86,11 @@ projects:
     category: Short film
     subtitle: Short film · Costume design
     year: "2024"
-    description: Directed by Annalisa Fania, DOP Andrea Anghinetti, costume design
-      Alessia Fontana and Beatrice Kranner
+    description: |-
+      Directed by Annalisa Fania; 
+      Produced by Centro Sperimentale di Cinematografia;
+      DOP Andrea Anghinetti;
+      Costume Designer Alessia Fontana and Beatrice Kranner
     cover: /images/a001c006241010r0yg1321-1.jpg
     cover_focus: center
     images:
@@ -90,8 +115,11 @@ projects:
     category: Short film
     subtitle: Short film · Costume design
     year: "2024"
-    description: Directed by Giulio Gulizzi, DOP Bernardo Massaccesi, Costume
-      designer Alessia Fontana and Flavia Setaccioli
+    description: |-
+      Directed by Giulio Gulizzi;
+      Produced by Centro Sperimentale di Cinematografia;
+      DOP Bernardo Massaccesi;
+      Costume Designer Alessia Fontana and Flavia Setaccioli
     cover: /images/copertina-1.jpg
     cover_focus: bottom
     images:
