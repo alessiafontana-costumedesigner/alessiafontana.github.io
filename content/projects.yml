@@ -29,6 +29,17 @@ projects:
       - /images/20260331164550.jpg
       - /images/20260402200440.jpg
       - /images/img-20260414-wa0042.jpg
+  - title: Dalle Ombre
+    category: Short film
+    subtitle: Short film · Costume design
+    year: "2025"
+    description: |-
+      Directed by Cabiria Lizzi;
+      Produced by Apulia film commission;
+      DOP Andrea Anghinetti;
+      Costume Designer Alessia Fontana 
+    cover_focus: bottom
+    video: /videos/the-end.mp4
   - title: Figli di papà
     category: Short film
     subtitle: Short film · Costume design
