@@ -24,10 +24,6 @@ projects:
       Costume Designer Alessia Fontana
     cover: /images/5mezzadea4x3141.jpg
     cover_focus: bottom
-    images:
-      - /images/screenshot-2026-10-13-alle-105811.jpg
-      - /images/screenshot-2026-10-13-alle-105833.jpg
-      - /images/screenshot-2026-10-13-alle-105957.jpg
     layout: two
     backstage:
       - /images/img-20260414-wa0040.jpg
