@@ -25,12 +25,13 @@ projects:
     cover: /images/5mezzadea4x3141.jpg
     cover_focus: bottom
     images:
-      - /images/screenshot-2026-10-13-alle-105833-1.jpg
+      - /images/screenshot-2026-10-13-alle-110056.jpg
       - /images/screenshot-2026-10-13-alle-105843.jpg
       - /images/screenshot-2026-10-13-alle-105905.jpg
-      - /images/screenshot-2026-10-13-alle-110056.jpg
+      - /images/screenshot-2026-10-13-alle-105833-1.jpg
       - /images/screenshot-2026-10-13-alle-110044.jpg
-      - /images/screenshot-2026-10-13-alle-110317.jpg
+      - /images/screenshot-2026-10-13-alle-110113.jpg
+      - /images/screenshot-2026-10-13-alle-110213.jpg
       - /images/screenshot-2026-10-13-alle-110309.jpg
       - /images/screenshot-2026-10-13-alle-110333.jpg
     layout: two
@@ -40,6 +41,7 @@ projects:
       - /images/20260402200440.jpg
       - /images/img-20260414-wa0042.jpg
       - /images/img-20260414-wa0028.jpg
+      - /images/screenshot-2026-10-14-114918.png
   - title: Dalle Ombre
     category: Short film
     subtitle: Short film · Costume design
