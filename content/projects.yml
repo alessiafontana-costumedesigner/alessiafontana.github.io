@@ -100,7 +100,14 @@ projects:
       - /images/4-1.jpg
       - /images/5-1.jpg
     layout: two
-    video: /videos/the-end.mp4
+    backstage:
+      - /images/img-20250329-wa0035.jpg
+      - /images/img-20250329-wa0042.jpg
+      - /images/20250328155926.jpg
+      - /images/20250328105919.jpg
+      - /images/20250328165700.jpg
+      - /images/20250314114218.jpg
+      - /images/20250331164316.jpg
   - title: The End
     category: Short film
     subtitle: Short film · Costume design
