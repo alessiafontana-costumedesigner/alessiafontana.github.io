@@ -225,12 +225,13 @@ projects:
       bring renewed attention to a legacy of gestures and skills passed down
       through generations, transforming them into a contemporary design
       language.
+    cover: /images/copertina-3.jpg
     cover_focus: center
     images:
-      - /images/echec-et-mat/02.jpg
+      - /images/screenshot-2026-10-14-120502.png
       - /images/echec-et-mat/03.jpg
-      - /images/echec-et-mat/06.jpg
-      - /images/echec-et-mat/07.jpg
+      - /images/ricamo.jpg
       - /images/echec-et-mat/08.jpg
+      - /images/screenshot-2026-10-14-120614.png
       - /images/echec-et-mat/09.jpg
     layout: one
