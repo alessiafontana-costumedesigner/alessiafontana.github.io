@@ -14,13 +14,13 @@ projects:
       - /images/2-1.jpg
       - /images/7.jpg
     layout: one
-  - title: Dress 1853, Barbara Ronchi
+  - title: Dress 1853 Barbara Ronchi
     category: "Tailoring workshop "
     subtitle: Tailoring workshop  with Luca Costigliolo
     year: "2026"
     description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
       Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
-    cover: /images/img-20261007-wa0055.jpg
+    cover: /images/img-20261007-wa0059-2.jpg
     cover_focus: bottom
     images:
       - /images/jeanaugustedominiqueingresprincessealbertdebrogliefxd.jpg
