@@ -14,6 +14,36 @@ projects:
       - /images/2-1.jpg
       - /images/7.jpg
     layout: one
+  - title: Dress 1853, Barbara Ronchi
+    category: "Tailoring workshop "
+    subtitle: Tailoring workshop  with Luca Costigliolo
+    year: "2026"
+    description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
+      Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
+    cover: /images/img-20261007-wa0055.jpg
+    cover_focus: bottom
+    images:
+      - /images/jeanaugustedominiqueingresprincessealbertdebrogliefxd.jpg
+      - /images/img-20261007-wa0059-1.jpg
+      - /images/img-20261007-wa0027-1.jpg
+      - /images/img-20261007-wa0055-2.jpg
+      - /images/20261007121343-1.jpg
+      - /images/20261007120725-1.jpg
+      - /images/20261007115551-1.jpg
+      - /images/img-20261007-wa0028-1.jpg
+      - /images/img-20261007-wa0051.jpg
+      - /images/20261007121616-1.jpg
+    layout: two
+    backstage:
+      - /images/img-20260225-wa0015-1.jpg
+      - /images/img-20260225-wa0011-1.jpg
+      - /images/img-20260225-wa0014.jpg
+      - /images/img-20261006-wa0029.jpg
+      - /images/img-20260225-wa0024-1.jpg
+      - /images/img-20260226-wa0002-1.jpg
+      - /images/20260226114036-2.jpg
+      - /images/img-20260225-wa0029-1.jpg
+      - /images/img-20260427-wa0006-1.jpg
   - title: Mezza Dea
     category: Short film
     subtitle: Short film · Costume design and Makeup Artist
@@ -99,6 +129,7 @@ projects:
       - /images/4-1.jpg
       - /images/5-1.jpg
     layout: two
+    video: /videos/the-end.mp4
     backstage:
       - /images/img-20250329-wa0035.jpg
       - /images/img-20250329-wa0042.jpg
@@ -243,33 +274,3 @@ projects:
       - /images/screenshot-2026-10-14-151121.png
       - /images/img-20220518-wa0088.jpg
       - /images/img-20220719-wa0013.jpg
-  - title: Dress 1853, Barbara Ronchi
-    category: "Tailoring workshop "
-    subtitle: Tailoring workshop  with Luca Costigliolo
-    year: "2026"
-    description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
-      Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
-    cover: /images/img-20261007-wa0055.jpg
-    cover_focus: bottom
-    images:
-      - /images/jeanaugustedominiqueingresprincessealbertdebrogliefxd.jpg
-      - /images/img-20261007-wa0059-1.jpg
-      - /images/img-20261007-wa0027-1.jpg
-      - /images/img-20261007-wa0055-2.jpg
-      - /images/20261007121343-1.jpg
-      - /images/20261007120725-1.jpg
-      - /images/20261007115551-1.jpg
-      - /images/img-20261007-wa0028-1.jpg
-      - /images/img-20261007-wa0051.jpg
-      - /images/20261007121616-1.jpg
-    layout: two
-    backstage:
-      - /images/img-20260225-wa0015-1.jpg
-      - /images/img-20260225-wa0011-1.jpg
-      - /images/img-20260225-wa0014.jpg
-      - /images/img-20261006-wa0029.jpg
-      - /images/img-20260225-wa0024-1.jpg
-      - /images/img-20260226-wa0002-1.jpg
-      - /images/20260226114036-2.jpg
-      - /images/img-20260225-wa0029-1.jpg
-      - /images/img-20260427-wa0006-1.jpg
