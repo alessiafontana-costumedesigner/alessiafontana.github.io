@@ -17,7 +17,7 @@ projects:
     layout: one
   - title: Dress 1853 Barbara Ronchi
     category: "Tailoring workshop "
-    subtitle: Tailoring workshop  with Luca Costigliolo
+    subtitle: Tailoring workshop with Luca Costigliolo
     year: "2026"
     description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
       Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
@@ -275,3 +275,30 @@ projects:
       - /images/screenshot-2026-10-14-151121.png
       - /images/img-20220518-wa0088.jpg
       - /images/img-20220719-wa0013.jpg
+  - title: Tailoring workshop 1500
+    category: Tailoring workshop - dress 1500
+    subtitle: Tailoring workshop with Luca Costigliolo
+    year: "2025"
+    description: "Tailoring workshop: creation of a 1580 dress, with cutter Luca
+      Costigliolo and costume designer Maurizio Millenotti"
+    cover: /images/img-20250618-wa0016.jpg
+    cover_focus: bottom
+    images:
+      - /images/img-20250522-wa0014.jpg
+      - /images/img-20250526-wa0015.jpg
+      - /images/img-20250528-wa0014.jpg
+      - /images/img-20250603-wa0020.jpg
+      - /images/img-20250522-wa0021.jpg
+      - /images/img-20250610-wa0023.jpg
+      - /images/img-20250613-wa0066.jpg
+      - /images/img-20250610-wa0015.jpg
+      - /images/20250604171308.jpg
+      - /images/img-20250613-wa0073.jpg
+      - /images/img-20250603-wa0039.jpg
+      - /images/img-20250618-wa0144.jpg
+      - /images/20250618103107.jpg
+      - /images/img-20250618-wa0006.jpg
+      - /images/img-20250618-wa0016-1.jpg
+      - /images/img-20250618-wa0020.jpg
+      - /images/img-20250618-wa0052.jpg
+    layout: one
