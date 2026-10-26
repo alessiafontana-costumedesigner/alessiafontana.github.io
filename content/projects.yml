@@ -9,12 +9,12 @@ projects:
     cover: /images/0-1.jpg
     cover_focus: bottom
     images:
+      - /images/3-3.jpg
+      - /images/5-2.jpg
       - /images/1.jpg
       - /images/2-1.jpg
       - /images/6.jpg
       - /images/7.jpg
-      - /images/3-3.jpg
-      - /images/5-2.jpg
     layout: one
   - title: Mezza Dea
     category: Short film
