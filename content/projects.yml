@@ -15,7 +15,7 @@ projects:
       - /images/6.jpg
       - /images/2-3.jpg
       - /images/7.jpg
-    layout: one
+    layout: two
   - title: Mezza Dea
     category: Short film
     subtitle: Short film · Costume design and Makeup Artist
