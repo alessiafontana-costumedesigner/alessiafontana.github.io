@@ -15,36 +15,6 @@ projects:
       - /images/7.jpg
       - /images/3-3.jpg
     layout: one
-  - title: Dress 1853 Barbara Ronchi
-    category: "Tailoring workshop "
-    subtitle: Tailoring workshop with Luca Costigliolo
-    year: "2026"
-    description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
-      Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
-    cover: /images/img-20261007-wa0023.jpg
-    cover_focus: bottom
-    images:
-      - /images/jeanaugustedominiqueingresprincessealbertdebrogliefxd.jpg
-      - /images/img-20261007-wa0059-1.jpg
-      - /images/img-20261007-wa0027-1.jpg
-      - /images/img-20261007-wa0055-2.jpg
-      - /images/20261007121343-1.jpg
-      - /images/20261007120725-1.jpg
-      - /images/20261007115551-1.jpg
-      - /images/img-20261007-wa0028-1.jpg
-      - /images/img-20261007-wa0051.jpg
-      - /images/20261007121616-1.jpg
-    layout: two
-    backstage:
-      - /images/img-20260225-wa0015-1.jpg
-      - /images/img-20260225-wa0011-1.jpg
-      - /images/img-20260225-wa0014.jpg
-      - /images/img-20260225-wa0024-1.jpg
-      - /images/img-20261006-wa0029-1.jpg
-      - /images/img-20260226-wa0002-1.jpg
-      - /images/20260226114036-2.jpg
-      - /images/img-20260225-wa0029-1.jpg
-      - /images/img-20260427-wa0006-1.jpg
   - title: Mezza Dea
     category: Short film
     subtitle: Short film · Costume design and Makeup Artist
@@ -193,6 +163,7 @@ projects:
       - /images/anime-giovani/12.jpg
       - /images/anime-giovani/11.jpg
     layout: two
+    video: /videos/the-end.mp4
     backstage:
       - /images/anime-giovani/backstage/01.jpg
       - /images/anime-giovani/backstage/03.jpg
@@ -221,6 +192,66 @@ projects:
       - /images/20241007231645.jpg
       - /images/20241008004640.jpg
       - /images/screenshot-2026-10-09-161910.png
+  - title: Dress 1853 Barbara Ronchi
+    category: "Tailoring workshop "
+    subtitle: Tailoring workshop with Luca Costigliolo
+    year: "2026"
+    description: 'Tailoring workshop: creation of the 1853 dress "La Princesse de
+      Broglie" by Jean-Auguste-Dominique Ingres, with cutter Luca Costigliolo'
+    cover: /images/img-20261007-wa0023.jpg
+    cover_focus: bottom
+    images:
+      - /images/jeanaugustedominiqueingresprincessealbertdebrogliefxd.jpg
+      - /images/img-20261007-wa0059-1.jpg
+      - /images/img-20261007-wa0027-1.jpg
+      - /images/img-20261007-wa0055-2.jpg
+      - /images/20261007121343-1.jpg
+      - /images/20261007120725-1.jpg
+      - /images/20261007115551-1.jpg
+      - /images/img-20261007-wa0028-1.jpg
+      - /images/img-20261007-wa0051.jpg
+      - /images/20261007121616-1.jpg
+    layout: two
+    backstage:
+      - /images/img-20260225-wa0015-1.jpg
+      - /images/img-20260225-wa0011-1.jpg
+      - /images/img-20260225-wa0014.jpg
+      - /images/img-20260225-wa0024-1.jpg
+      - /images/img-20261006-wa0029-1.jpg
+      - /images/img-20260226-wa0002-1.jpg
+      - /images/20260226114036-2.jpg
+      - /images/img-20260225-wa0029-1.jpg
+      - /images/img-20260427-wa0006-1.jpg
+  - title: Workshop 16th century
+    category: Tailoring workshop - dress 1500
+    subtitle: Tailoring workshop with Luca Costigliolo
+    year: "2025"
+    description: "Tailoring workshop: creation of a 1580 dress, with cutter Luca
+      Costigliolo and costume designer Maurizio Millenotti"
+    cover: /images/img-20250618-wa0144-1.jpg
+    cover_focus: bottom
+    images:
+      - /images/img-20250522-wa0014.jpg
+      - /images/img-20250526-wa0015.jpg
+      - /images/img-20250522-wa0021.jpg
+      - /images/img-20250610-wa0023.jpg
+      - /images/20250604171205.jpg
+      - /images/img-20250610-wa0015.jpg
+      - /images/img-20250613-wa0066.jpg
+      - /images/img-20250613-wa0073.jpg
+      - /images/img-20250603-wa0039.jpg
+      - /images/img-20250618-wa0144.jpg
+      - /images/20250618103107-1.jpg
+      - /images/img-20250618-wa0020.jpg
+      - /images/img-20250618-wa0006.jpg
+      - /images/img-20250618-wa0052.jpg
+      - /images/img-20250618-wa0016-1.jpg
+    layout: three
+    backstage:
+      - /images/img-20250619-wa0003.jpg
+      - /images/img-20250620-wa0022.jpg
+      - /images/img-20250620-wa0028.jpg
+      - /images/img-20250618-wa0156.jpg
   - title: Fashion Graduate Italia
     category: Fashion show
     subtitle: "fashion "
@@ -275,33 +306,3 @@ projects:
       - /images/screenshot-2026-10-14-151121.png
       - /images/img-20220518-wa0088.jpg
       - /images/img-20220719-wa0013.jpg
-  - title: Workshop 16th century
-    category: Tailoring workshop - dress 1500
-    subtitle: Tailoring workshop with Luca Costigliolo
-    year: "2025"
-    description: "Tailoring workshop: creation of a 1580 dress, with cutter Luca
-      Costigliolo and costume designer Maurizio Millenotti"
-    cover: /images/img-20250618-wa0144-1.jpg
-    cover_focus: bottom
-    images:
-      - /images/img-20250522-wa0014.jpg
-      - /images/img-20250526-wa0015.jpg
-      - /images/img-20250522-wa0021.jpg
-      - /images/img-20250610-wa0023.jpg
-      - /images/20250604171205.jpg
-      - /images/img-20250610-wa0015.jpg
-      - /images/img-20250613-wa0066.jpg
-      - /images/img-20250613-wa0073.jpg
-      - /images/img-20250603-wa0039.jpg
-      - /images/img-20250618-wa0144.jpg
-      - /images/20250618103107-1.jpg
-      - /images/img-20250618-wa0020.jpg
-      - /images/img-20250618-wa0006.jpg
-      - /images/img-20250618-wa0052.jpg
-      - /images/img-20250618-wa0016-1.jpg
-    layout: three
-    backstage:
-      - /images/img-20250619-wa0003.jpg
-      - /images/img-20250620-wa0022.jpg
-      - /images/img-20250620-wa0028.jpg
-      - /images/img-20250618-wa0156.jpg
