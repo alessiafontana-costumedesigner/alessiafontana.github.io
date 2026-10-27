@@ -101,7 +101,6 @@ projects:
       - /images/4-1.jpg
       - /images/5-1.jpg
     layout: two
-    video: /videos/the-end.mp4
     backstage:
       - /images/img-20250329-wa0035.jpg
       - /images/img-20250329-wa0042.jpg
@@ -110,6 +109,31 @@ projects:
       - /images/20250328165700.jpg
       - /images/20250314114218.jpg
       - /images/20250331164316.jpg
+  - title: Stay Away
+    category: Short film
+    subtitle: Short film · Costume design
+    year: "2025"
+    description: |-
+      Directed by Gregorio Mattiocco, 
+      Produced by Centro Sperimentale di Cinematografia;
+      DOP Bernardo Massaccesi; 
+      Costume Designer Alessia Fontana
+    cover: /images/screenshot-2026-10-27-101800.png
+    cover_focus: bottom
+    images:
+      - /images/screenshot-2026-10-27-101456.png
+      - /images/screenshot-2026-10-27-101844.png
+      - /images/screenshot-2026-10-27-101641.png
+      - /images/screenshot-2026-10-27-101551.png
+      - /images/screenshot-2026-10-27-101701.png
+      - /images/screenshot-2026-10-27-101830.png
+      - /images/screenshot-2026-10-27-102036.png
+      - /images/screenshot-2026-10-27-102118.png
+      - /images/screenshot-2026-10-27-102345.png
+      - /images/screenshot-2026-10-27-102223.png
+      - /images/screenshot-2026-10-27-102456.png
+      - /images/screenshot-2026-10-27-102302.png
+    layout: two
   - title: The End
     category: Short film
     subtitle: Short film · Costume design
